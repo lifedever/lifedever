@@ -2,7 +2,7 @@ name: Refresh banner
 
 on:
   schedule:
-    # 每天 03:17 UTC（北京 11:17）。错开整点，避开 GitHub 的定时任务高峰
+    # 每天 03:17 UTC（北京 11:17）。错开整点，避开 GitHub 定时任务高峰
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
@@ -21,17 +21,33 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Fetch contribution data
+      # contributionsCollection 会把私有仓库的贡献算进去，但只对有权限的调用者可见。
+      # 仓库级的 GITHUB_TOKEN 只看得到公开部分，会静默少算（实测 2828 → 2085）。
+      # 没配 PAT 就跳过而不是失败 —— 否则每天定时跑都会发一封失败通知。
+      - name: Check for a user-scoped token
+        id: tok
         env:
-          # contributionsCollection 需要 user scope。默认 GITHUB_TOKEN 通常够用；
-          # 若报权限错误，建一个 read:user 的 PAT 存成 secret GH_PAT 即可自动切换。
-          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$PAT" ]; then
+            echo "::warning::未配置 secret GH_PAT，跳过本次刷新。默认 GITHUB_TOKEN 看不到私有仓库贡献，会把总数少算约 25%。建一个带 read:user 的 PAT 存成 GH_PAT 即可自动生效。"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch contribution data
+        if: steps.tok.outputs.skip == 'false'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: node scripts/fetch-data.mjs
 
-      - name: Build banner
+      - name: Build banner and cards
+        if: steps.tok.outputs.skip == 'false'
         run: node scripts/build.mjs
 
       - name: Commit if changed
+        if: steps.tok.outputs.skip == 'false'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
