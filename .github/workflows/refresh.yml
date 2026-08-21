@@ -1,0 +1,45 @@
+name: Refresh banner
+
+on:
+  schedule:
+    # 每天 03:17 UTC（北京 11:17）。错开整点，避开 GitHub 的定时任务高峰
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch contribution data
+        env:
+          # contributionsCollection 需要 user scope。默认 GITHUB_TOKEN 通常够用；
+          # 若报权限错误，建一个 read:user 的 PAT 存成 secret GH_PAT 即可自动切换。
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-data.mjs
+
+      - name: Build banner
+        run: node scripts/build-banner.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          # 数据没变就不提交，避免每天刷一条空 commit
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore: refresh contribution banner"
+            git push
+          fi

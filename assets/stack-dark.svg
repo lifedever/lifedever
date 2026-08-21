@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448" height="118" viewBox="0 0 448 118" fill="none" role="img" aria-label="Stack: Swift, SwiftUI, Tauri, Rust, TypeScript, Vue, Node.js, Java, Spring Boot, Cloudflare Workers, Docker">
+<rect x="0.5" y="0.5" width="447" height="117" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="18" y="32.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#7d8590" letter-spacing="1">DESKTOP</text><g opacity="0">
+        <rect x="96.0" y="18" width="48.9" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="107.0" cy="28.5" r="3.8" fill="#F05138"/>
+        <text x="115.5" y="32.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Swift</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.10s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="150.9" y="18" width="60.4" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="161.9" cy="28.5" r="3.8" fill="#F05138"/>
+        <text x="170.4" y="32.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">SwiftUI</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="217.3" y="18" width="50.2" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="228.3" cy="28.5" r="3.8" fill="#dea584"/>
+        <text x="236.8" y="32.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Tauri</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="273.5" y="18" width="47.6" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="284.5" cy="28.5" r="3.8" fill="#dea584"/>
+        <text x="293.0" y="32.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Rust</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.25s" fill="freeze"/>
+      </g><text x="18" y="62.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#7d8590" letter-spacing="1">WEB</text><g opacity="0">
+        <rect x="96.0" y="48" width="79.0" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="107.0" cy="58.5" r="3.8" fill="#3178c6"/>
+        <text x="115.5" y="62.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">TypeScript</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.22s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="181.0" y="48" width="44.5" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="192.0" cy="58.5" r="3.8" fill="#41b883"/>
+        <text x="200.5" y="62.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Vue</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.27s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="231.4" y="48" width="63.0" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="242.4" cy="58.5" r="3.8" fill="#f1e05a"/>
+        <text x="250.9" y="62.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Node.js</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.32s" fill="freeze"/>
+      </g><text x="18" y="92.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#7d8590" letter-spacing="1">BACKEND</text><g opacity="0">
+        <rect x="96.0" y="78" width="48.3" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="107.0" cy="88.5" r="3.8" fill="#b07219"/>
+        <text x="115.5" y="92.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Java</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.34s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="150.3" y="78" width="84.1" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="161.3" cy="88.5" r="3.8" fill="#b07219"/>
+        <text x="169.8" y="92.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Spring Boot</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.39s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="240.4" y="78" width="122.4" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="251.4" cy="88.5" r="3.8" fill="#f38020"/>
+        <text x="259.9" y="92.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Cloudflare Workers</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.44s" fill="freeze"/>
+      </g><g opacity="0">
+        <rect x="368.8" y="78" width="60.4" height="21" rx="10.5" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+        <circle cx="379.8" cy="88.5" r="3.8" fill="#384d54"/>
+        <text x="388.3" y="92.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#e6edf3">Docker</text>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.49s" fill="freeze"/>
+      </g>
+</svg>
