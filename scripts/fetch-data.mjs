@@ -6,7 +6,7 @@
  *
  * 渲染层只读 data.json，不碰网络 —— 这样改样式不用重新请求 API。
  */
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
 
 const LOGIN = process.env.GH_LOGIN || "lifedever";
 const TZ_OFFSET = +(process.env.TZ_OFFSET ?? 8); // 作息按本地时区还原，committedDate 是 UTC
@@ -164,7 +164,26 @@ const data = {
   languages,
 };
 
-writeFileSync(new URL("../assets/data.json", import.meta.url), JSON.stringify(data, null, 2));
+/* ── 6. 数据倒退保护 ─────────────────────────────────────
+   contributionsCollection 把私有仓库的贡献也算进去，但只对有权限的调用者可见：
+   仓库级的 GITHUB_TOKEN 只看得到公开部分，会静默少算（实测 2824 → 2086）。
+   这种降级不报错，会直接把错数据写进仓库，所以在这里拦一道。
+   要拿完整数据，需要一个带 read:user 的 PAT，存成 secret GH_PAT。 */
+const target = new URL("../assets/data.json", import.meta.url);
+if (existsSync(target)) {
+  const prev = JSON.parse(readFileSync(target, "utf8"));
+  const before = prev.totals?.contributions ?? 0;
+  if (before && data.totals.contributions < before * 0.9) {
+    console.error(
+      `\n✗ 拒绝写入：贡献数从 ${before} 跌到 ${data.totals.contributions}（-${(100 - (data.totals.contributions / before) * 100).toFixed(0)}%）。\n` +
+      `  这通常不是真实下降，而是 token 看不到私有仓库的贡献。\n` +
+      `  修法：建一个带 read:user 的 PAT，存成仓库 secret GH_PAT。\n`
+    );
+    process.exit(1);
+  }
+}
+
+writeFileSync(target, JSON.stringify(data, null, 2));
 console.log(`✓ assets/data.json
   贡献      ${data.totals.contributions} (${activeDays}/${days.length} 天有提交)
   连续      最长 ${longest} 天 · 当前 ${current} 天
