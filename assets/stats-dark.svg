@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="52" viewBox="0 0 380 52" fill="none" role="img" aria-label="130 public repos, 1803 stars earned, 13 years shipping">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="52" viewBox="0 0 380 52" fill="none" role="img" aria-label="130 public repos, 1805 stars earned, 13 years shipping">
 <rect x="0.5" y="0.5" width="379" height="51" rx="10" fill="#161b22" stroke="#30363d"/>
 <g opacity="0">
       <text x="22.0" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">130</text>
       <text x="22.0" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#7d8590" letter-spacing="0.9">PUBLIC REPOS</text>
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.10s" fill="freeze"/>
     </g><line x1="122.8" y1="12" x2="122.8" y2="40" stroke="#30363d"/><g opacity="0">
-      <text x="139.8" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">1,803</text>
+      <text x="139.8" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">1,805</text>
       <text x="139.8" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#7d8590" letter-spacing="0.9">STARS EARNED</text>
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.20s" fill="freeze"/>
     </g><line x1="244.5" y1="12" x2="244.5" y2="40" stroke="#30363d"/><g opacity="0">

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-23",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -8,51 +8,11 @@
   },
   "totals": {
     "repos": 130,
-    "stars": 1803,
-    "contributions": 2832
+    "stars": 1805,
+    "contributions": 2841
   },
   "calendar": {
     "weeks": [
-      {
-        "firstDay": "2025-08-17",
-        "days": [
-          {
-            "date": "2025-08-17",
-            "n": 0,
-            "wd": 0
-          },
-          {
-            "date": "2025-08-18",
-            "n": 9,
-            "wd": 1
-          },
-          {
-            "date": "2025-08-19",
-            "n": 0,
-            "wd": 2
-          },
-          {
-            "date": "2025-08-20",
-            "n": 19,
-            "wd": 3
-          },
-          {
-            "date": "2025-08-21",
-            "n": 24,
-            "wd": 4
-          },
-          {
-            "date": "2025-08-22",
-            "n": 0,
-            "wd": 5
-          },
-          {
-            "date": "2025-08-23",
-            "n": 0,
-            "wd": 6
-          }
-        ]
-      },
       {
         "firstDay": "2025-08-24",
         "days": [
@@ -2128,14 +2088,24 @@
           },
           {
             "date": "2026-08-22",
-            "n": 2,
+            "n": 9,
             "wd": 6
+          }
+        ]
+      },
+      {
+        "firstDay": "2026-08-23",
+        "days": [
+          {
+            "date": "2026-08-23",
+            "n": 2,
+            "wd": 0
           }
         ]
       }
     ],
-    "from": "2025-08-17",
-    "to": "2026-08-22"
+    "from": "2025-08-24",
+    "to": "2026-08-23"
   },
   "rhythm": {
     "hours": [
@@ -2150,36 +2120,36 @@
       13,
       38,
       57,
-      58,
-      66,
+      60,
+      65,
       64,
       79,
       101,
       129,
       96,
-      113,
+      112,
       41,
-      19,
-      39,
+      23,
+      42,
       55,
       51
     ],
-    "sampled": 1084,
+    "sampled": 1091,
     "peakHour": 16,
     "weekday": [
-      526,
-      503,
+      528,
+      494,
       317,
-      427,
-      304,
+      408,
+      280,
       377,
-      378
+      385
     ],
     "busiestWeekday": "Sunday",
     "longestStreak": 29,
-    "currentStreak": 9,
-    "activeDays": 154,
-    "totalDays": 371,
+    "currentStreak": 10,
+    "activeDays": 152,
+    "totalDays": 365,
     "bestDay": 107
   },
   "languages": [
@@ -2187,7 +2157,7 @@
       "name": "JavaScript",
       "color": "#f1e05a",
       "size": 41538733,
-      "pct": 52.7
+      "pct": 52.6
     },
     {
       "name": "HTML",
@@ -2204,7 +2174,7 @@
     {
       "name": "Swift",
       "color": "#F05138",
-      "size": 4504184,
+      "size": 4505649,
       "pct": 5.7
     },
     {
