@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28",
+  "generatedAt": "2026-08-29",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -2125,12 +2125,17 @@
             "date": "2026-08-28",
             "n": 15,
             "wd": 5
+          },
+          {
+            "date": "2026-08-29",
+            "n": 0,
+            "wd": 6
           }
         ]
       }
     ],
     "from": "2025-08-24",
-    "to": "2026-08-28"
+    "to": "2026-08-29"
   },
   "rhythm": {
     "hours": [
@@ -2174,7 +2179,7 @@
     "longestStreak": 29,
     "currentStreak": 2,
     "activeDays": 155,
-    "totalDays": 370,
+    "totalDays": 371,
     "bestDay": 107
   },
   "languages": [
