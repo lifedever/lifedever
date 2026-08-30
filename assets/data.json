@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -8,51 +8,11 @@
   },
   "totals": {
     "repos": 131,
-    "stars": 1819,
+    "stars": 1821,
     "contributions": 2812
   },
   "calendar": {
     "weeks": [
-      {
-        "firstDay": "2025-08-24",
-        "days": [
-          {
-            "date": "2025-08-24",
-            "n": 0,
-            "wd": 0
-          },
-          {
-            "date": "2025-08-25",
-            "n": 0,
-            "wd": 1
-          },
-          {
-            "date": "2025-08-26",
-            "n": 0,
-            "wd": 2
-          },
-          {
-            "date": "2025-08-27",
-            "n": 0,
-            "wd": 3
-          },
-          {
-            "date": "2025-08-28",
-            "n": 1,
-            "wd": 4
-          },
-          {
-            "date": "2025-08-29",
-            "n": 2,
-            "wd": 5
-          },
-          {
-            "date": "2025-08-30",
-            "n": 0,
-            "wd": 6
-          }
-        ]
-      },
       {
         "firstDay": "2025-08-31",
         "days": [
@@ -2132,10 +2092,20 @@
             "wd": 6
           }
         ]
+      },
+      {
+        "firstDay": "2026-08-30",
+        "days": [
+          {
+            "date": "2026-08-30",
+            "n": 0,
+            "wd": 0
+          }
+        ]
       }
     ],
-    "from": "2025-08-24",
-    "to": "2026-08-29"
+    "from": "2025-08-31",
+    "to": "2026-08-30"
   },
   "rhythm": {
     "hours": [
@@ -2171,15 +2141,15 @@
       494,
       321,
       408,
-      284,
-      392,
+      283,
+      390,
       385
     ],
     "busiestWeekday": "Sunday",
     "longestStreak": 29,
-    "currentStreak": 2,
-    "activeDays": 155,
-    "totalDays": 371,
+    "currentStreak": 0,
+    "activeDays": 153,
+    "totalDays": 365,
     "bestDay": 107
   },
   "languages": [
