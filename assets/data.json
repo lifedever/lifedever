@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12",
+  "generatedAt": "2026-09-13",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -8,51 +8,11 @@
   },
   "totals": {
     "repos": 131,
-    "stars": 1855,
+    "stars": 1856,
     "contributions": 2847
   },
   "calendar": {
     "weeks": [
-      {
-        "firstDay": "2025-09-07",
-        "days": [
-          {
-            "date": "2025-09-07",
-            "n": 0,
-            "wd": 0
-          },
-          {
-            "date": "2025-09-08",
-            "n": 0,
-            "wd": 1
-          },
-          {
-            "date": "2025-09-09",
-            "n": 0,
-            "wd": 2
-          },
-          {
-            "date": "2025-09-10",
-            "n": 0,
-            "wd": 3
-          },
-          {
-            "date": "2025-09-11",
-            "n": 0,
-            "wd": 4
-          },
-          {
-            "date": "2025-09-12",
-            "n": 0,
-            "wd": 5
-          },
-          {
-            "date": "2025-09-13",
-            "n": 0,
-            "wd": 6
-          }
-        ]
-      },
       {
         "firstDay": "2025-09-14",
         "days": [
@@ -2132,10 +2092,20 @@
             "wd": 6
           }
         ]
+      },
+      {
+        "firstDay": "2026-09-13",
+        "days": [
+          {
+            "date": "2026-09-13",
+            "n": 0,
+            "wd": 0
+          }
+        ]
       }
     ],
-    "from": "2025-09-07",
-    "to": "2026-09-12"
+    "from": "2025-09-14",
+    "to": "2026-09-13"
   },
   "rhythm": {
     "hours": [
@@ -2179,7 +2149,7 @@
     "longestStreak": 29,
     "currentStreak": 3,
     "activeDays": 163,
-    "totalDays": 371,
+    "totalDays": 365,
     "bestDay": 107
   },
   "languages": [
