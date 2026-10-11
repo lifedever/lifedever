@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -13,46 +13,6 @@
   },
   "calendar": {
     "weeks": [
-      {
-        "firstDay": "2025-10-05",
-        "days": [
-          {
-            "date": "2025-10-05",
-            "n": 0,
-            "wd": 0
-          },
-          {
-            "date": "2025-10-06",
-            "n": 0,
-            "wd": 1
-          },
-          {
-            "date": "2025-10-07",
-            "n": 0,
-            "wd": 2
-          },
-          {
-            "date": "2025-10-08",
-            "n": 0,
-            "wd": 3
-          },
-          {
-            "date": "2025-10-09",
-            "n": 0,
-            "wd": 4
-          },
-          {
-            "date": "2025-10-10",
-            "n": 0,
-            "wd": 5
-          },
-          {
-            "date": "2025-10-11",
-            "n": 0,
-            "wd": 6
-          }
-        ]
-      },
       {
         "firstDay": "2025-10-12",
         "days": [
@@ -2132,10 +2092,20 @@
             "wd": 6
           }
         ]
+      },
+      {
+        "firstDay": "2026-10-11",
+        "days": [
+          {
+            "date": "2026-10-11",
+            "n": 0,
+            "wd": 0
+          }
+        ]
       }
     ],
-    "from": "2025-10-05",
-    "to": "2026-10-10"
+    "from": "2025-10-12",
+    "to": "2026-10-11"
   },
   "rhythm": {
     "hours": [
@@ -2177,9 +2147,9 @@
     ],
     "busiestWeekday": "Sunday",
     "longestStreak": 29,
-    "currentStreak": 2,
+    "currentStreak": 0,
     "activeDays": 182,
-    "totalDays": 371,
+    "totalDays": 365,
     "bestDay": 107
   },
   "languages": [
