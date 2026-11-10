@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09",
+  "generatedAt": "2026-11-10",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -2105,12 +2105,17 @@
             "date": "2026-11-09",
             "n": 0,
             "wd": 1
+          },
+          {
+            "date": "2026-11-10",
+            "n": 0,
+            "wd": 2
           }
         ]
       }
     ],
     "from": "2025-11-09",
-    "to": "2026-11-09"
+    "to": "2026-11-10"
   },
   "rhythm": {
     "hours": [
@@ -2152,9 +2157,9 @@
     ],
     "busiestWeekday": "Sunday",
     "longestStreak": 29,
-    "currentStreak": 5,
+    "currentStreak": 0,
     "activeDays": 203,
-    "totalDays": 366,
+    "totalDays": 367,
     "bestDay": 107
   },
   "languages": [
