@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24",
+  "generatedAt": "2026-11-25",
   "user": {
     "login": "lifedever",
     "name": "Lifedever",
@@ -7,9 +7,9 @@
     "years": 13
   },
   "totals": {
-    "repos": 131,
-    "stars": 1940,
-    "contributions": 3116
+    "repos": 132,
+    "stars": 1943,
+    "contributions": 3142
   },
   "calendar": {
     "weeks": [
@@ -2108,20 +2108,25 @@
           },
           {
             "date": "2026-11-24",
-            "n": 6,
+            "n": 9,
             "wd": 2
+          },
+          {
+            "date": "2026-11-25",
+            "n": 23,
+            "wd": 3
           }
         ]
       }
     ],
     "from": "2025-11-23",
-    "to": "2026-11-24"
+    "to": "2026-11-25"
   },
   "rhythm": {
     "hours": [
-      51,
+      47,
       16,
-      3,
+      2,
       0,
       0,
       0,
@@ -2130,36 +2135,36 @@
       13,
       44,
       70,
-      85,
-      71,
-      80,
+      88,
+      70,
+      60,
+      88,
+      74,
       103,
-      82,
-      113,
-      100,
-      121,
-      44,
+      90,
+      114,
+      42,
       38,
       48,
-      55,
-      56
+      45,
+      55
     ],
-    "sampled": 1197,
+    "sampled": 1111,
     "peakHour": 18,
     "weekday": [
       551,
       519,
-      393,
-      448,
+      396,
+      471,
       317,
       438,
       450
     ],
     "busiestWeekday": "Sunday",
     "longestStreak": 29,
-    "currentStreak": 2,
-    "activeDays": 210,
-    "totalDays": 367,
+    "currentStreak": 3,
+    "activeDays": 211,
+    "totalDays": 368,
     "bestDay": 107
   },
   "languages": [
@@ -2167,13 +2172,13 @@
       "name": "JavaScript",
       "color": "#f1e05a",
       "size": 41878620,
-      "pct": 50.9
+      "pct": 50.7
     },
     {
       "name": "HTML",
       "color": "#e34c26",
-      "size": 12373971,
-      "pct": 15.1
+      "size": 12427329,
+      "pct": 15
     },
     {
       "name": "CSS",
@@ -2184,14 +2189,14 @@
     {
       "name": "Swift",
       "color": "#F05138",
-      "size": 7377430,
-      "pct": 9
+      "size": 7728416,
+      "pct": 9.4
     },
     {
       "name": "Java",
       "color": "#b07219",
       "size": 2352879,
-      "pct": 2.9
+      "pct": 2.8
     },
     {
       "name": "C#",
